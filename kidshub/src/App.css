@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: rgb(53, 164, 238);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+.logo {
+  width: 70px; 
+  height: auto;
+  margin-left: 200px;
+}
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 1px;
+}
+
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+  margin-right: 30px;
+  align-items: center;
+
+
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-home {
+  max-width: 1000px; /* Limit the width to match other pages */
+  margin: 2rem auto; /* Center horizontally by using auto margins */
+  padding: 2rem;
+  background-color: rgb(254, 255, 254);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 150%; /* Set to 66% of the viewport to keep it consistent with other pages */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.post-item {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+
+.comments-section, .comment-item, .comment-form {
+  background-color: #f0f0f0; 
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.upvote-section {
+  display: flex;
+  align-items: center;
+}
+
+.upvote-icon {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.edit-delete-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+
+
