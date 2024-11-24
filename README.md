@@ -1,14 +1,9 @@
-# Web Development Final Project - _Kidshub_
+# Web Development - _Kidshub_
 
-Submitted by: **Sha Zhao**
+ **KidsHub is a vibrant web app designed to engage children and their families in a fun and interactive online community. The platform allows users to create and share posts all about kids, such as the places, the classes, the interest, etc.**
 
-This web app: **KidsHub is a vibrant web app designed to engage children and their families in a fun and interactive online community. The platform allows users to create and share posts all about kids, such as the places, the classes, the interest, etc.**
 
-Time spent: **15** hours spent in total
-
-## Required Features
-
-The following **required** functionality is completed:
+The following functionality is completed:
 
 - [x] **A create form that allows the user to create posts**
 - [x] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
@@ -22,13 +17,7 @@ The following **required** functionality is completed:
 - [x] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
 - [x] **A previously created post can be edited or deleted from its post page**
 
-The following **optional** features are implemented:
-
 - [x] Users can only edit and deleted posts or delete comments by entering the secret key, which is set by the user during post creation
-- [ ] Upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them.
-- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [ ] Users can customize the interface of the web app
-- [ ] Users can share and view web videos
 - [x] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
 - [x] Users can upload images directly from their local machine as an image file
 - [x] Display a loading animation whenever data is being fetched
@@ -41,22 +30,3 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with LICEcap.
 
-## Notes
-
-1, The detail page can not show the images when I upload the images directly from the local.
-
-## License
-
-    Copyright [2024] [Sha Zhao]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
